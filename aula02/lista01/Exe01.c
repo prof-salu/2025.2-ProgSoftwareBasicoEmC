@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <locale.h>
-#include <GLUT.h>
 
 int main(){
-	/*Faça um Programa que peça as 4 notas bimestrais 
-	e mostre a média.*/
+	/*FaÃ§a um Programa que peÃ§a as 4 notas bimestrais e mostre a mÃ©dia.*/
+	
 	setlocale(LC_ALL, "Portuguese");
 	float n1, n2, n3, n4, media;
 	
@@ -22,5 +21,6 @@ int main(){
 	
 	media = (n1 + n2 + n3 + n4) / 4;
 	
-	printf("\nMédia final: %.1f", media);
+	printf("\nMÃ©dia final: %.1f", media);
 }
+
