@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <time.h>
-#include <unistd.h>
+#include <unistd.h> //Obrigatoria em sistemas UNIX para utilizar a funcao sleep()
 
 int main(){
 	time_t inicio, fim;
@@ -18,3 +18,4 @@ int main(){
 	
 	printf("Tempo decorrido: %.2f segundos.", diferenca);
 }
+
